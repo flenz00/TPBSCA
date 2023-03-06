@@ -36,9 +36,8 @@ java -jar tpbsca.jar
 3. You should see letters of the english alphabet displayed with a certain delay
 
 
-
-<b> If you want to create servlets by yourself, you have to follow this structure </b>
-
+## Create your own
+If you want to create servlets by yourself, you have to follow this structure
 ```mermaid
 graph TD;
     A(working directory) --> B(staticcontentrepository);
@@ -48,4 +47,6 @@ graph TD;
     D(Your servlet) --> G(lib);
     D(Your servlet) --> H(src);
     D(Your servlet) --> I(class);
+    C(servletrepository) --> L(class);
+    L(class) --> M(annotated classes); 
 ```
