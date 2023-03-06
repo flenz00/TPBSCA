@@ -22,7 +22,6 @@ java -jar tpbsca.jar
 ```
 **Supported Commands**
 | Command | Description |
-| --- | --- | 
 | load <servletname> | Load a servlet using metadata.txt file |
 | remove <servletname> | Unload a servlet |
 | load-with-annotations <servletname> | Load a servlet using annotations instead of metadata.txt | 
