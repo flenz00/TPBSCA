@@ -4,6 +4,6 @@ My implementation of a Thread Pool Based Servlet Container with Annotations for 
 Requires Java 8 to work properly
 
 1) Compile java files with
-'''bash
+```bash
 javac -cp javax/javax.servlet-api-3.1.0.jar:. *.java
-'''
+```
