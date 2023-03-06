@@ -44,9 +44,9 @@ graph TD;
     A(working directory) --> C(servletrepository);
     C(servletrepository) --> D(Your servlet);
     D(Your servlet) --> F(metadata.txt);
-    D(Your servlet) --> G(lib);
-    D(Your servlet) --> H(src);
-    D(Your servlet) --> I(class);
+    D(Your servlet) --> |libraries| G(lib);
+    D(Your servlet) --> |.java| H(src);
+    D(Your servlet) --> |.class| I(class);
     C(servletrepository) --> L(class);
     L(class) --> M(annotated classes); 
 ```
