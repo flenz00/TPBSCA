@@ -45,5 +45,10 @@ graph TD;
     A(Your directory) --> C(servletrepository);
     C(servletrepository) --> D(servlet 1);
     C(servletrepository) --> E(servlet N);
+    D(servlet 1) --> F(File metadata.txt);
+    D(servlet 1) --> G(lib);
+    D(servlet 1) --> H(src);
+    D(servlet 1) --> I(class);
+    
     
 ```
