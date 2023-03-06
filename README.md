@@ -43,12 +43,9 @@ java -jar tpbsca.jar
 graph TD;
     A(Your directory) --> B(staticcontentrepository);
     A(Your directory) --> C(servletrepository);
-    C(servletrepository) --> D(servlet 1);
-    C(servletrepository) --> E(servlet N);
-    D(servlet 1) --> F(File metadata.txt);
+    C(servletrepository) --> D(Your servlet);
+    D(servlet 1) --> F(metadata.txt);
     D(servlet 1) --> G(lib);
     D(servlet 1) --> H(src);
     D(servlet 1) --> I(class);
-    
-    
 ```
