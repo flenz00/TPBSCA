@@ -20,11 +20,11 @@ jar -cfm tpbsca.jar Manifest.txt .
 ```bash
 java -jar tpbsca.jar
 ```
-**Supported Commands**
+## Supported Commands
 | Command | Description |
 | --- | --- |
-| load [servletname]| Load a servlet using metadata.txt file |
-| remove [servletname] | Unload a servlet |
-| load-with-annotations [servletname] | Load a servlet using annotations instead of metadata.txt | 
+| load [servlet]| Load a servlet using metadata.txt file |
+| remove [servlet] | Unload a servlet |
+| load-with-annotations [servlet] | Load a servlet using annotations instead of metadata.txt | 
 | ls | Display running servlets |
 | mt | Display the handler.txt file that shows which thread handled the n-th request associated to its date and time |
