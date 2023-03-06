@@ -30,7 +30,11 @@ java -jar tpbsca.jar
 | mt | Display the handler.txt file that shows which thread handled the n-th request associated to its date and time |
 | quit | Exit the program |
 
-## Example of Usage
+## Example of usage
 1. load myservlet
 2. Open your browser and go to http://localhost:7654/servlet/myservlet
 3. You should see letters of the english alphabet displayed with a certain delay
+
+If you want to create servlets by yourself, you have to follow this structure 
+![image](https://user-images.githubusercontent.com/56314144/223172102-8b2e613a-9bff-40af-8e4a-a9a882a6f807.png)
+
