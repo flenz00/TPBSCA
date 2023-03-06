@@ -35,6 +35,9 @@ java -jar tpbsca.jar
 2. Open your browser and go to http://localhost:7654/servlet/myservlet
 3. You should see letters of the english alphabet displayed with a certain delay
 
-If you want to create servlets by yourself, you have to follow this structure 
+
+
+<b> If you want to create servlets by yourself, you have to follow this structure </b>
+
 ![image](https://user-images.githubusercontent.com/56314144/223172102-8b2e613a-9bff-40af-8e4a-a9a882a6f807.png)
 
