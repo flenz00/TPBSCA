@@ -41,8 +41,8 @@ java -jar tpbsca.jar
 
 ```mermaid
 graph TD;
-    A(Your directory) --> B(staticcontentrepository);
-    A(Your directory) --> C(servletrepository);
+    A(working directory) --> B(staticcontentrepository);
+    A(working directory) --> C(servletrepository);
     C(servletrepository) --> D(Your servlet);
     D(Your servlet) --> F(metadata.txt);
     D(Your servlet) --> G(lib);
