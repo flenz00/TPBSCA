@@ -33,7 +33,7 @@ java -jar tpbsca.jar
 ## Example of usage
 1. load myservlet
 2. Open your browser and go to http://localhost:7654/servlet/myservlet
-3. You should see letters of the english alphabet displayed with a certain delay
+3. You should see letters of the english alphabet displaying with a certain delay
 
 
 ## Create your own
