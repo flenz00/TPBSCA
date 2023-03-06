@@ -40,7 +40,7 @@ java -jar tpbsca.jar
 If you want to create servlets by yourself, you have to follow this structure
 ```mermaid
 graph TD;
-    A(fa:fa-folder working directory) --> B(fa:fa-folder staticcontentrepository);
+    A(working directory) --> B |.html| (staticcontentrepository);
     A(working directory) --> C(servletrepository);
     C(servletrepository) --> D(Your servlet);
     D(Your servlet) --> F(metadata.txt);
