@@ -39,5 +39,11 @@ java -jar tpbsca.jar
 
 <b> If you want to create servlets by yourself, you have to follow this structure </b>
 
-![image](https://user-images.githubusercontent.com/56314144/223172102-8b2e613a-9bff-40af-8e4a-a9a882a6f807.png)
-
+```mermaid
+graph TD;
+    A(Folder A) --> B(Folder B);
+    A(Folder A) --> C(Folder C);
+    B(Folder B) --> D(File 1);
+    B(Folder B) --> E(File 2);
+    C(Folder C) --> F(Folder D);
+```
