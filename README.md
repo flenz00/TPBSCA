@@ -44,8 +44,8 @@ graph TD;
     A(Your directory) --> B(staticcontentrepository);
     A(Your directory) --> C(servletrepository);
     C(servletrepository) --> D(Your servlet);
-    D(servlet 1) --> F(metadata.txt);
-    D(servlet 1) --> G(lib);
-    D(servlet 1) --> H(src);
-    D(servlet 1) --> I(class);
+    D(Your servlet) --> F(metadata.txt);
+    D(Your servlet) --> G(lib);
+    D(Your servlet) --> H(src);
+    D(Your servlet) --> I(class);
 ```
