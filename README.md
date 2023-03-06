@@ -28,3 +28,9 @@ java -jar tpbsca.jar
 | load-with-annotations [servlet] | Load a servlet using annotations instead of metadata.txt | 
 | ls | Display running servlets |
 | mt | Display the handler.txt file that shows which thread handled the n-th request associated to its date and time |
+| quit | Exit the program |
+
+### Example of Usage
+1. load myservlet
+2. Open your browser and go to http://localhost:7654/servlet/myservlet
+3. You should see letters of the english alphabet displayed with a certain delay
