@@ -1,19 +1,21 @@
 # TPBSCA
 My implementation of a Thread Pool Based Servlet Container with Annotations for the Software Platforms project
 
-Requires Java 8 to work properly
+- Requires Java 8 to work properly
+- Supports static and dynamic contents
+- Everything is managed through a CLI 
 
-- Compile java files
+1) Compile java files
 ```bash
 javac -cp javax/javax.servlet-api-3.1.0.jar:. *.java
 ```
 Remember to replace ':' with ';' if you're using Windows
 
-- Create the jar 
+2) Create the jar 
 ```bash
 jar -cfm tpbsca.jar Manifest.txt .
 ```
-- Run the jar
+3) Run the jar
 ```bash
 java -jar tpbsca.jar
 ```
